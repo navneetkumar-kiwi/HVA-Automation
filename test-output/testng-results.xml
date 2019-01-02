@@ -1,123 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="358218" started-at="2019-01-02T06:25:13Z" finished-at="2019-01-02T06:31:12Z">
+  <suite name="Default suite" duration-ms="13507" started-at="2019-01-02T14:46:47Z" finished-at="2019-01-02T14:47:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="358218" started-at="2019-01-02T06:25:13Z" finished-at="2019-01-02T06:31:12Z">
-      <class name="testClasses.Registration_Test">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="OpenBrowser" is-config="true" duration-ms="22108" started-at="2019-01-02T06:25:14Z" finished-at="2019-01-02T06:25:36Z">
+    <test name="Default test" duration-ms="13507" started-at="2019-01-02T14:46:47Z" finished-at="2019-01-02T14:47:00Z">
+      <class name="testClasses.Property_Detail_Test">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="OpenBrowser" is-config="true" duration-ms="7612" started-at="2019-01-02T14:46:47Z" finished-at="2019-01-02T14:46:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="a_elementscheck()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="a_elementscheck" duration-ms="12906" started-at="2019-01-02T06:25:36Z" finished-at="2019-01-02T06:25:49Z">
+        <test-method status="PASS" signature="a_ElementsCheck()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="a_ElementsCheck" duration-ms="5569" started-at="2019-01-02T14:46:54Z" finished-at="2019-01-02T14:47:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- a_elementscheck -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="AfterMethod" is-config="true" duration-ms="712" started-at="2019-01-02T06:25:49Z" finished-at="2019-01-02T06:25:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="OpenBrowser" is-config="true" duration-ms="8267" started-at="2019-01-02T06:25:50Z" finished-at="2019-01-02T06:25:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="b_register()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="b_register" duration-ms="56756" started-at="2019-01-02T06:25:58Z" finished-at="2019-01-02T06:26:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b_register -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="AfterMethod" is-config="true" duration-ms="250" started-at="2019-01-02T06:26:55Z" finished-at="2019-01-02T06:26:55Z">
+        </test-method> <!-- a_ElementsCheck -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="AfterMethod" is-config="true" duration-ms="288" started-at="2019-01-02T14:47:00Z" finished-at="2019-01-02T14:47:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="OpenBrowser" is-config="true" duration-ms="6631" started-at="2019-01-02T06:26:55Z" finished-at="2019-01-02T06:27:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="c_verify()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="c_verify" duration-ms="32078" started-at="2019-01-02T06:27:01Z" finished-at="2019-01-02T06:27:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- c_verify -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Registration_Test@243c4f91]" name="AfterMethod" is-config="true" duration-ms="242" started-at="2019-01-02T06:27:34Z" finished-at="2019-01-02T06:27:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- testClasses.Registration_Test -->
-      <class name="testClasses.Login_Test">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Login_Test@291ae]" name="OpenBrowser" is-config="true" duration-ms="6394" started-at="2019-01-02T06:27:34Z" finished-at="2019-01-02T06:27:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="a_elementsCheck()[pri:0, instance:testClasses.Login_Test@291ae]" name="a_elementsCheck" duration-ms="6595" started-at="2019-01-02T06:27:40Z" finished-at="2019-01-02T06:27:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a_elementsCheck -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Login_Test@291ae]" name="AfterMethod" is-config="true" duration-ms="196" started-at="2019-01-02T06:27:47Z" finished-at="2019-01-02T06:27:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Login_Test@291ae]" name="OpenBrowser" is-config="true" duration-ms="6435" started-at="2019-01-02T06:27:47Z" finished-at="2019-01-02T06:27:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="b_buttonCheck()[pri:0, instance:testClasses.Login_Test@291ae]" name="b_buttonCheck" duration-ms="16224" started-at="2019-01-02T06:27:53Z" finished-at="2019-01-02T06:28:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b_buttonCheck -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Login_Test@291ae]" name="AfterMethod" is-config="true" duration-ms="243" started-at="2019-01-02T06:28:10Z" finished-at="2019-01-02T06:28:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Login_Test@291ae]" name="OpenBrowser" is-config="true" duration-ms="10132" started-at="2019-01-02T06:28:10Z" finished-at="2019-01-02T06:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="c_cancel()[pri:0, instance:testClasses.Login_Test@291ae]" name="c_cancel" duration-ms="4409" started-at="2019-01-02T06:28:20Z" finished-at="2019-01-02T06:28:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- c_cancel -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Login_Test@291ae]" name="AfterMethod" is-config="true" duration-ms="320" started-at="2019-01-02T06:28:24Z" finished-at="2019-01-02T06:28:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Login_Test@291ae]" name="OpenBrowser" is-config="true" duration-ms="5953" started-at="2019-01-02T06:28:25Z" finished-at="2019-01-02T06:28:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="d_invalid()[pri:0, instance:testClasses.Login_Test@291ae]" name="d_invalid" duration-ms="4727" started-at="2019-01-02T06:28:31Z" finished-at="2019-01-02T06:28:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- d_invalid -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Login_Test@291ae]" name="AfterMethod" is-config="true" duration-ms="194" started-at="2019-01-02T06:28:35Z" finished-at="2019-01-02T06:28:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Login_Test@291ae]" name="OpenBrowser" is-config="true" duration-ms="10694" started-at="2019-01-02T06:28:36Z" finished-at="2019-01-02T06:28:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="e_forgot()[pri:0, instance:testClasses.Login_Test@291ae]" name="e_forgot" duration-ms="38656" started-at="2019-01-02T06:28:46Z" finished-at="2019-01-02T06:29:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- e_forgot -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Login_Test@291ae]" name="AfterMethod" is-config="true" duration-ms="271" started-at="2019-01-02T06:29:25Z" finished-at="2019-01-02T06:29:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Login_Test@291ae]" name="OpenBrowser" is-config="true" duration-ms="7021" started-at="2019-01-02T06:29:25Z" finished-at="2019-01-02T06:29:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="f_reset()[pri:0, instance:testClasses.Login_Test@291ae]" name="f_reset" duration-ms="98944" started-at="2019-01-02T06:29:32Z" finished-at="2019-01-02T06:31:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_reset -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Login_Test@291ae]" name="AfterMethod" is-config="true" duration-ms="421" started-at="2019-01-02T06:31:11Z" finished-at="2019-01-02T06:31:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- testClasses.Login_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testClasses.Property_Detail_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

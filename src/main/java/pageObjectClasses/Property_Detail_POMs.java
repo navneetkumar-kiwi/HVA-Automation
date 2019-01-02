@@ -1,5 +1,7 @@
 package pageObjectClasses;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,9 +20,14 @@ public class Property_Detail_POMs
 	
 	/***ELEMENTS***/
 	
-	@FindBy(xpath= "//h2[text() = 'Sign In']")
-	public WebElement signin_text;
+	@FindBy(xpath= "//div[@class = 'jss284']/h2")
+	public WebElement detailprice;
 	
+	@FindBy(xpath= "//div[@class = 'jss285']/div/h4")
+	public List <WebElement> detailsqft;
+	
+	@FindBy(xpath= "//span[@class = 'jss297']")
+	public WebElement detailaddress;
 	
 	/***ACTIONS***/
 
