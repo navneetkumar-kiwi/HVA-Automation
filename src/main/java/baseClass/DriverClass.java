@@ -13,7 +13,7 @@ public class DriverClass {
 	    System.setProperty("webdriver.chrome.driver", "/Users/kiwitech/Desktop/Others/Selenium/chromedriver");
 		driver = new ChromeDriver(); 
 }
-
+ 
   public static WebDriver set(){
 	  new DriverClass();
 	  return driver;
