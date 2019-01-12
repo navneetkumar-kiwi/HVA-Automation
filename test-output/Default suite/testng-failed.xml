@@ -5,9 +5,9 @@
     <classes>
       <class name="testClasses.Property_Detail_Test">
         <methods>
-          <include name="a_ElementsCheck"/>
           <include name="AfterMethod"/>
           <include name="OpenBrowser"/>
+          <include name="c_images"/>
         </methods>
       </class> <!-- testClasses.Property_Detail_Test -->
     </classes>
