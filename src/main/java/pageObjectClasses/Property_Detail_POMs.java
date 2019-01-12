@@ -65,6 +65,13 @@ public class Property_Detail_POMs
 	@FindBy(xpath= "//div[@class = 'jss4']")
 	public List <WebElement> similar;
 	
+	@FindBy(xpath= "//button[@aria-label = 'Close lightbox']")
+	public WebElement closelight;
+	
+	@FindBy(xpath= "//div[@class = 'ril-caption-content ril__captionContent']")
+	public WebElement lighttext;
+	
+	
 	
 	
 	/***ACTIONS***/
