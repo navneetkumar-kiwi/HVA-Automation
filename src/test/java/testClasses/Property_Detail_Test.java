@@ -76,8 +76,8 @@ public class Property_Detail_Test
 		Thread.sleep(2000);
 	}
 	
-	@Test(enabled=true)
-	public void c_images() throws InterruptedException
+	@Test(enabled=false)
+	public void c_imagestext() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		ob6.tile.click();
@@ -86,25 +86,53 @@ public class Property_Detail_Test
 		{
 			Thread.sleep(2000);
 			Assert.assertEquals(ob5.images.isDisplayed() && ob5.images1.size() > 0, true);
-			System.out.println("Number of Images: "+ob5.images1.size());
-			for(int i=0; i<=ob5.images1.size(); i++)
+			for(int i=0; i<ob5.images1.size(); i++)
 			{
 				Assert.assertEquals(ob5.images1.get(i).getSize().getHeight()!=0 && ob5.images1.get(i).getSize().getWidth()!=0, true);
 				String s = ob5.images1.get(i).getText();
 				ob5.images1.get(i).click();
 				Assert.assertEquals(ob5.closelight.isDisplayed() && ob5.closelight.getSize().getHeight()!=0 && ob5.closelight.getSize().getWidth()!=0, true);
 				Assert.assertEquals(s, ob5.lighttext.getText());
-				System.out.println(s);
-                System.out.println(ob5.lighttext.getText());
                 ob5.closelight.click();
                 Thread.sleep(2000);
 			}
 		}
 		catch(Exception e)
 		{
-			Assert.assertEquals(false, false);
+			Assert.assertEquals(false, true);
 		}
+		ob5.detailclose.click();
+        Thread.sleep(2000);
 	}
+	
+	@Test(enabled = true)
+	
+	public void d_imageurl() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		ob6.tile.click();
+		Thread.sleep(2000);		
+		if(ob5.images1.size()>0)
+		{
+		for(int i = 0; i<ob5.imageurl.size(); i++)
+		{
+		Thread.sleep(2000);
+		String s = ob5.imageurl.get(i).getAttribute("src");
+		ob5.imageurl.get(i).click();
+		Thread.sleep(2000);
+		String s1 = ob5.lightimageurl.getAttribute("src");
+		Assert.assertEquals(s, s1);
+		ob5.closelight.click();
+		Thread.sleep(2000);
+		}
+		}
+		else
+		{
+			Assert.assertEquals(true, true);
+			System.out.println("No Images");
+		}
+		ob5.detailclose.click();
+	}	
 	
 	@AfterMethod
 	public void AfterMethod()

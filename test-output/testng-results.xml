@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25825" started-at="2019-01-12T09:04:17Z" finished-at="2019-01-12T09:04:43Z">
+  <suite name="Default suite" duration-ms="31276" started-at="2019-01-14T13:02:04Z" finished-at="2019-01-14T13:02:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25825" started-at="2019-01-12T09:04:17Z" finished-at="2019-01-12T09:04:43Z">
+    <test name="Default test" duration-ms="31276" started-at="2019-01-14T13:02:04Z" finished-at="2019-01-14T13:02:35Z">
       <class name="testClasses.Property_Detail_Test">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="OpenBrowser" is-config="true" duration-ms="10038" started-at="2019-01-12T09:04:17Z" finished-at="2019-01-12T09:04:27Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="OpenBrowser" is-config="true" duration-ms="8065" started-at="2019-01-14T13:02:04Z" finished-at="2019-01-14T13:02:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="c_images()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="c_images" duration-ms="15381" started-at="2019-01-12T09:04:27Z" finished-at="2019-01-12T09:04:43Z">
+        <test-method status="PASS" signature="d_imageurl()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="d_imageurl" duration-ms="22862" started-at="2019-01-14T13:02:12Z" finished-at="2019-01-14T13:02:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- c_images -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="AfterMethod" is-config="true" duration-ms="374" started-at="2019-01-12T09:04:43Z" finished-at="2019-01-12T09:04:43Z">
+        </test-method> <!-- d_imageurl -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="AfterMethod" is-config="true" duration-ms="295" started-at="2019-01-14T13:02:35Z" finished-at="2019-01-14T13:02:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->

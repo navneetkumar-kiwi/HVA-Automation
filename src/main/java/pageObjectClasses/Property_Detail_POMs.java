@@ -71,8 +71,11 @@ public class Property_Detail_POMs
 	@FindBy(xpath= "//div[@class = 'ril-caption-content ril__captionContent']")
 	public WebElement lighttext;
 	
+	@FindBy(xpath = "//div[@class = 'slick-track']/div/div/div/img")
+	public List <WebElement> imageurl;
 	
-	
+	@FindBy(xpath = "//img[@class = 'ril-image-current ril__image']")
+	public WebElement lightimageurl;
 	
 	/***ACTIONS***/
 
