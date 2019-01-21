@@ -77,6 +77,18 @@ public class Property_Detail_POMs
 	@FindBy(xpath = "//img[@class = 'ril-image-current ril__image']")
 	public WebElement lightimageurl;
 	
+	@FindBy(xpath = "//button[@aria-label = 'Next image']")
+	public WebElement nextimage;
+	
+	@FindBy(xpath = "//button[@aria-label = 'Previous image']")
+	public WebElement previmage;
+	
+	@FindBy(xpath = "//a[@class = 'jss415']")
+	public List<WebElement> similartiles;
+	
+	@FindBy(xpath = "//div[@class = 'jss393 jss381 jss379 jss391']")
+	public List<WebElement> similartilesbgimage;
+	
 	/***ACTIONS***/
 
 }

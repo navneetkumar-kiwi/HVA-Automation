@@ -2,7 +2,11 @@ package testClasses;
 
 import java.util.Arrays;
 
+import org.apache.commons.io.input.WindowsLineEndingInputStream;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -27,6 +31,8 @@ public class Property_Detail_Test
 		ob5 = new Property_Detail_POMs(driver);
 		ob6 = new Home_POMs(driver);
 		driver.get("https://uat.dealvestors.com/");Thread.sleep(2000);
+		driver.manage().window().fullscreen();
+		Thread.sleep(2000);
 	}
 	
 	@Test(enabled=false)
@@ -105,8 +111,7 @@ public class Property_Detail_Test
         Thread.sleep(2000);
 	}
 	
-	@Test(enabled = true)
-	
+	@Test(enabled = false)
 	public void d_imageurl() throws InterruptedException
 	{
 		Thread.sleep(2000);
@@ -133,6 +138,40 @@ public class Property_Detail_Test
 		}
 		ob5.detailclose.click();
 	}	
+	
+	@Test(enabled = false)
+	public void e_slider() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		ob6.tile.click();
+		Thread.sleep(2000);
+		int size = ob5.images1.size();
+		ob5.images1.get(0).click();
+		for(int i=0; i<size-1;i++)
+		{
+			Thread.sleep(2000);
+			ob5.nextimage.click();
+			Thread.sleep(2000);
+		}
+		for(int j=0; j<size-1;j++)
+		{
+			Thread.sleep(2000);
+			ob5.previmage.click();
+			Thread.sleep(2000);
+		}
+		ob5.closelight.click();Thread.sleep(2000);
+		ob5.detailclose.click();
+		Thread.sleep(2000);
+	}
+	
+	@Test(enabled = true)
+	public void f_similarfinal() throws InterruptedException
+	{
+		Thread.sleep(2000);ob6.tile.click();Thread.sleep(3000);
+		System.out.println(ob5.similartiles.size());
+		Assert.assertEquals(ob5.similartiles.size(), 3);Thread.sleep(2000);
+		Assert.assertEquals(ob5.similartilesbgimage.size(), 3);
+	}
 	
 	@AfterMethod
 	public void AfterMethod()
