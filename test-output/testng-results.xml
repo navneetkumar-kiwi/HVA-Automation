@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22558" started-at="2019-01-18T13:51:22Z" finished-at="2019-01-18T13:51:44Z">
+  <suite name="Default suite" duration-ms="3128" started-at="2019-03-20T07:35:59Z" finished-at="2019-03-20T07:36:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22558" started-at="2019-01-18T13:51:22Z" finished-at="2019-01-18T13:51:44Z">
-      <class name="testClasses.Property_Detail_Test">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="OpenBrowser" is-config="true" duration-ms="14928" started-at="2019-01-18T13:51:22Z" finished-at="2019-01-18T13:51:37Z">
+    <test name="Default test" duration-ms="3128" started-at="2019-03-20T07:35:59Z" finished-at="2019-03-20T07:36:02Z">
+      <class name="testClasses.Home_API">
+        <test-method status="PASS" signature="a()[pri:0, instance:testClasses.Home_API@2ef3eef9]" name="a" duration-ms="3077" started-at="2019-03-20T07:35:59Z" finished-at="2019-03-20T07:36:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="f_similarfinal()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="f_similarfinal" duration-ms="7219" started-at="2019-01-18T13:51:37Z" finished-at="2019-01-18T13:51:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_similarfinal -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testClasses.Property_Detail_Test@7722c3c3]" name="AfterMethod" is-config="true" duration-ms="380" started-at="2019-01-18T13:51:44Z" finished-at="2019-01-18T13:51:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- testClasses.Property_Detail_Test -->
+        </test-method> <!-- a -->
+      </class> <!-- testClasses.Home_API -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

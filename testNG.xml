@@ -8,10 +8,11 @@
 </listeners>
 <test name="Test">
   	<classes>
-  		<class name="testClasses.Registration_Test"></class>
+<!--   		<class name="testClasses.Registration_Test"></class>
   		<class name="testClasses.Login_Test"></class>
   		<class name="testClasses.Home_Test"></class>
-  		<class name="testClasses.Property_Detail_Test"></class>
+  		<class name="testClasses.Property_Detail_Test"></class> -->
+  		<class name="testClasses.Home_API"></class>
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

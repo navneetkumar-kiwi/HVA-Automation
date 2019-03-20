@@ -149,6 +149,7 @@ public class Property_Detail_Test
 		ob5.images1.get(0).click();
 		for(int i=0; i<size-1;i++)
 		{
+			// array list  - done
 			Thread.sleep(2000);
 			ob5.nextimage.click();
 			Thread.sleep(2000);
@@ -170,7 +171,6 @@ public class Property_Detail_Test
 		Thread.sleep(2000);ob6.tile.click();Thread.sleep(3000);
 		System.out.println(ob5.similartiles.size());
 		Assert.assertEquals(ob5.similartiles.size(), 3);Thread.sleep(2000);
-		Assert.assertEquals(ob5.similartilesbgimage.size(), 3);
 	}
 	
 	@AfterMethod
