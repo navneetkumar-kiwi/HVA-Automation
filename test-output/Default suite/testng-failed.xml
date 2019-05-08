@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testClasses.Property_Detail_Test">
+      <class name="testClasses.Home_API">
         <methods>
-          <include name="AfterMethod"/>
-          <include name="OpenBrowser"/>
-          <include name="f_similarfinal"/>
+          <include name="a_get"/>
         </methods>
-      </class> <!-- testClasses.Property_Detail_Test -->
+      </class> <!-- testClasses.Home_API -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3128" started-at="2019-03-20T07:35:59Z" finished-at="2019-03-20T07:36:02Z">
+  <suite name="Default suite" duration-ms="4406" started-at="2019-05-08T15:22:25Z" finished-at="2019-05-08T15:22:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3128" started-at="2019-03-20T07:35:59Z" finished-at="2019-03-20T07:36:02Z">
+    <test name="Default test" duration-ms="4406" started-at="2019-05-08T15:22:25Z" finished-at="2019-05-08T15:22:30Z">
       <class name="testClasses.Home_API">
-        <test-method status="PASS" signature="a()[pri:0, instance:testClasses.Home_API@2ef3eef9]" name="a" duration-ms="3077" started-at="2019-03-20T07:35:59Z" finished-at="2019-03-20T07:36:02Z">
+        <test-method status="PASS" signature="b_post()[pri:0, instance:testClasses.Home_API@2ef3eef9]" name="b_post" duration-ms="4354" started-at="2019-05-08T15:22:25Z" finished-at="2019-05-08T15:22:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- a -->
+        </test-method> <!-- b_post -->
       </class> <!-- testClasses.Home_API -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
